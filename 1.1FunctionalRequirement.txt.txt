@@ -1,0 +1,7 @@
+1. The system should have contacts  
+2. The Contacts should have first name, last name, company field, job title field
+3. The system should have phone number along with the label which indicate for the phone number
+4. The system should have email address along with the label which indicate for the actual email address
+5. Each contacts will have multiple email address and multiple phone number
+6. The system should implement CRUD operations for Contacts
+7. The system should merge the duplicate contacts
