@@ -84,6 +84,24 @@ public class Contact {
         this.phones.add(ph);
     }
 
+    public void deleteContact(Long id){
+        this.contactId = '';
+        this.firstname = '';
+        this.lastname = '';
+        this.company = '';
+        this.job = '';
+        this.emails = [];
+        this.phones = [];
+    }
+
+    public Contact updateContact(Long contactId, String firstname, String lastname, String company, String job) {
+        this.contactId = contactId;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.company = company;
+        this.job = job;
+    }
+
     @Override
     public String toString() {
         return "|"
